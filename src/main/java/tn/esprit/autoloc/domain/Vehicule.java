@@ -58,4 +58,6 @@ public class Vehicule {
 
     @OneToMany(mappedBy = "vehicule", fetch = FetchType.LAZY)
     private List<Maintenance> maintenances;
+
+
 }

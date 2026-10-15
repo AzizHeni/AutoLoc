@@ -22,6 +22,6 @@ public class Equipement {
 
     private String libelle;
 
-    @ManyToMany(mappedBy = "equipements", fetch = FetchType.LAZY)
+    @ManyToMany(mappedBy = "equipements")
     private List<Vehicule> vehicules;
 }
